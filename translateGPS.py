@@ -1,23 +1,4 @@
-'''
-This script requires metaDataPull.py, it will take the data Long. & lat. that was written to data.txt file created from
-metaDataPull.py, and translates into a readable text
 
-Instructions:
-You will have to manually look at the GPSinfo from the data.txt file, and then run the script as below:
-Each data list will consist of 3 sets of numbers for example:   First section will be your lat (31, 1) , (14, 1), (3077, 100), second section your long, (121, 1), (29, 1), (984, 100)
-you will take the first segment of each set like below:
-desired lat/long
- lat = 31, 14, 3077
- long  = 121, 29, 984
-
-command to run script:
-translateGPS.py 31,14,3077 121,29,984
-
-Format: 
-Run Scriptname,   Latitude,     Longitude   
-
-From there you copy and paste the converted Lat and Long into google and find your location of where the picture was taken!
-'''
 # //translateGPS.py/
 import argparse
 

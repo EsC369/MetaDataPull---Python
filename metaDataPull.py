@@ -1,17 +1,6 @@
 # pip install pillow --user
 # //Extract Meta Data
 
-# //extractMetaData.py//
-'''
-*NOTE*
-
-command to run script:
-python metaDataPull.py data.jpg -o data.txt
-
-format:
-    call script,  which pic your choosing,   -o for output,   the name you want the information to be transfered to
-'''
-
 import argparse
 from PIL import Image
 from PIL.ExifTags import TAGS
